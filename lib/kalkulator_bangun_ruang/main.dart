@@ -1,8 +1,8 @@
-import 'package:my_mobx_app2/kalkulator_bangun_ruang/second_page.dart';
-import 'package:my_mobx_app2/kalkulator_bangun_ruang/space_calculator_store.dart';
+
 import 'package:flutter/material.dart';
 
 import 'list.dart';
+import 'second_page.dart';
 
 void main() {
   runApp(const MyApp());
