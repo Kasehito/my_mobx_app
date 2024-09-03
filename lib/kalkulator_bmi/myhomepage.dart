@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'kalkulator_bmi/men_bmi_calculator.dart';
-import 'kalkulator_bmi/women_bmi_calculator.dart';
+import 'men_bmi_calculator.dart';
+import 'women_bmi_calculator.dart';
 
 class MyHomePage extends StatelessWidget {
   @override
