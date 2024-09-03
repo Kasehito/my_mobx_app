@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:tugasmobxbangundatar/kalkulator_bangun_datar/shape_calculator.dart';
-import 'home_page.dart';
+import 'kalkulator_bangun_datar/home_page.dart';
 void main() {
   runApp(MyApp());
 }
