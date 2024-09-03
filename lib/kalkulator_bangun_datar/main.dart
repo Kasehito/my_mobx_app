@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:tugasmobxbangundatar/kalkulator_bangun_datar/shape_calculator.dart';
 import 'home_page.dart';
 void main() {
   runApp(MyApp());
@@ -18,8 +17,14 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => HomePage(), // Home Page
-        '/details': (context) =>  ShapeCalculator(), // Details Page
+        '/details': (context) =>  _shapeCalculator(), // Details Page
       },
     );
+  }
+
+  Widget _shapeCalculator() {
+      // Define the implementation of the ShapeCalculator widget here
+      // ...
+      return Container(); // Replace Container() with your desired widget
   }
 }
