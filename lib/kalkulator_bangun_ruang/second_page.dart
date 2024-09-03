@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_mobx_app2/space_calculator_store.dart';
+import 'package:my_mobx_app2/kalkulator_bangun_ruang/space_calculator_store.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
