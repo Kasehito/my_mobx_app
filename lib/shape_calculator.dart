@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'component/input_widget.dart'; // Impor widget baru
-import 'component/result_widget.dart'; // Impor widget baru
+import 'component/input_widget.dart';
+import 'component/result_widget.dart';
 import 'shape_store.dart';
 
 class ShapeCalculator extends StatelessWidget {

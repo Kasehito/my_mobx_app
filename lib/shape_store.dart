@@ -1,6 +1,6 @@
 import 'package:mobx/mobx.dart';
 
-part 'shape_store.g.dart'; // Bagian ini dihasilkan oleh build_runner
+part 'shape_store.g.dart';
 
 class ShapeStore = _ShapeStore with _$ShapeStore;
 

@@ -10,18 +10,17 @@ class HomePage extends StatelessWidget {
         elevation: 4.0,
       ),
       body: Container(
-        color: Colors.teal.shade50, // Warna latar belakang halaman
+        color: Colors.teal.shade50,
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Tambahkan gambar atau logo di atas tombol
               Image.asset(
-                'assets/logo.jpg', // Pastikan kamu memiliki gambar di folder assets
+                'assets/logo.jpg',
                 width: 100,
                 height: 100,
               ),
-              SizedBox(height: 20), // Spasi antara gambar dan tombol
+              SizedBox(height: 20),
               Text(
                 'Selamat Datang di Kalkulator Bangun Datar!',
                 style: TextStyle(
@@ -31,13 +30,13 @@ class HomePage extends StatelessWidget {
                 ),
                 textAlign: TextAlign.center,
               ),
-              SizedBox(height: 40), // Spasi antara teks dan tombol
+              SizedBox(height: 40),
               ElevatedButton(
                 onPressed: () {
                   Navigator.pushNamed(context, '/details');
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.teal, // Warna latar belakang tombol
+                  backgroundColor: Colors.teal,
                   padding: EdgeInsets.symmetric(horizontal: 20, vertical: 12),
                   textStyle: TextStyle(
                     fontSize: 18,
