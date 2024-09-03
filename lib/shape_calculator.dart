@@ -12,7 +12,7 @@ class ShapeCalculator extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Shape Calculator with MobX'),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.red,
       ),
       body: Container(
         decoration: BoxDecoration(
