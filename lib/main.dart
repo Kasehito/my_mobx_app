@@ -1,25 +1,26 @@
 import 'package:flutter/material.dart';
-import 'package:my_mobx_app2/myhomepage.dart';
+
+import 'package:tugasmobxbangundatar/shape_calculator.dart';
+import 'home_page.dart'; // Import halaman
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
- class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
+      title: 'Flutter Routing Example',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => HomePage(), // Home Page
+        '/details': (context) =>  ShapeCalculator(), // Details Page
+      },
     );
   }
 }
-
