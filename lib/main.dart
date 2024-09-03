@@ -2,8 +2,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:provider/provider.dart';
-import 'store/calculator_store.dart';
-import 'widgets/custom_text_field.dart';
+import 'kalkulator_aritmatika/store/calculator_store.dart';
+import 'kalkulator_aritmatika/widgets/custom_text_field.dart';
 
 void main() {
   runApp(
