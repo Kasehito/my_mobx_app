@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'space_calculator_store.dart';
 
 class SecondPage extends StatelessWidget {
